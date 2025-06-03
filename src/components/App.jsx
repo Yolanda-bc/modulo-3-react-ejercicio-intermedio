@@ -3,7 +3,7 @@ import studentsData from "../data/students.json";
 import Header from "./Header";
 
 function App() {
-  const students = studentsData.results; // Extraemos el array "results" del JSON
+  const students = studentsData.results; 
 
   return (
     <div className="app">

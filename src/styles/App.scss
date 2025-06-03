@@ -1,3 +1,32 @@
 @use './core/reset';
 
-/* Aquí van los estilos */
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title__table {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: black;
+  
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  
+}
+
+.table th,
+.table td {
+  
+  padding: 10px;
+  text-align: left;
+}
+.table th {
+    background-color: rgb(235, 231, 231);
+}
+
+
