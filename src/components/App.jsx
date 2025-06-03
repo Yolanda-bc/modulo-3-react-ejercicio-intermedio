@@ -1,13 +1,16 @@
 import "../styles/App.scss";
 import studentsData from "../data/students.json";
 import Header from "./Header";
+import Main from "./Main";
 
 function App() {
   const students = studentsData.results; 
-
+   const handleInputFilter = () => {}
   return (
+  
     <div className="app">
       <Header />
+      <Main />
       <table className="table">
         <thead>
           <tr>
